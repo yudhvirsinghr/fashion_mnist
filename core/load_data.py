@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 ## Read the dataset
-train = pd.read_csv('./datasets/fashion-mnist_train.csv')
-test = pd.read_csv('./datasets/fashion-mnist_test.csv')
+train = pd.read_csv('./dataset/fashion-mnist_train.csv')
+test = pd.read_csv('./dataset/fashion-mnist_test.csv')
 
 ## train_data - 60000, 784
 ## train_label - 60000,
